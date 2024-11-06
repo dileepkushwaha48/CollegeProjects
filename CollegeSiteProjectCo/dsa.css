@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+/* Navbar styling */
+
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    background-color: #f1f1f1ef;
+    /* position: fixed; */
+    /* Light gray background for navbar */
+    padding: 1.6rem;
+    border-bottom: 1px solid #ddd;
+    padding-right: 16.7rem;
+}
+
+.navbar img {
+    height: 60px;
+    width: auto;
+    margin-right: 35rem;
+}
+
+.navbar a,
+.navbar button {
+    color: #333;
+    /* Dark text color */
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 19px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+.navbar button {
+    font-weight: bold;
+
+}
+
+#sigma {
+    border: 2px solid blue;
+    padding: 0.8rem;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(3, 3, 212, 0.941);
+
+
+}
+
+#sign {
+    border: 2px solid blue;
+    background-color: #fff;
+    color: blue;
+    padding: 0.8rem;
+}
+
+/* Dropdown container styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Styling for hover effects */
+.navbar a:hover,
+.navbar button:hover {
+    background-color: #f1f1f1;
+
+}
+
+
+/* main css */
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2.5rem;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.main-container h1{
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    margin: 1rem;
+    cursor: all;
+    line-height: 1.55;
+    font-weight: bold;
+    text-transform: none;
+    font-family: "Inter";
+    background-color: white;
+    border-color: white;
+    color:  #6674CC;
+
+    
+}
+
+.main-container span{
+    color: #262626;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    font-weight: bold;
+    text-transform: none;
+    font-family: "Inter";
+    background-color: white;
+    border-color: white;
+}
+
+.main-container .small-paragraph{
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    font-weight: normal;
+    text-transform: none;
+    font-family: "Inter";
+    background-color: white;
+    border-color: white;
+}
+
+.main-container #small-note{
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    font-weight: normal;
+    text-transform: none;
+    font-family: "Inter";
+    background-color: white;
+    border-color: white;
+}
+
+
+.footer-container-allContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12rem;
+
+
+
+}
+
+.footer-container-allContent .footer-container-content {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+
+    align-items: center;
+}
+
+.footer-container-allContent img {
+    width: 200px;
+    height: 100px;
+    margin: 1.8rem;
+}
+
+.footer-container-allContent .footer-container-contents p {
+    color: #6674CC;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+}
+
+.footer-container-allContent .footer-container-contents .heading1 {
+    color: #6674CC;
+    /* border: 2px solid red; */
+    margin: 1.8rem;
+
+
+}
+
+.footer-container-contents ul li {
+
+    margin-left: 4.5rem;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+
+}
+
+.footer-container-contents a {
+    text-decoration: none;
+    color: #6674CC;
+}
+
+.footer-container-contents .heading3 {
+    color: #000;
+    font-weight: bold;
+    margin: 1.8rem;
+
+}
+
+.footer-container-contents .fa-envelope {
+    color: blue;
+    font-weight: bold;
+    margin-left: 1.9rem;
+
+}
+
+.footer-container-contents .mail {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+
+}
+
+#Copyright {
+    border: 2px solid #fff;
+    margin: 4rem;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+    
+}

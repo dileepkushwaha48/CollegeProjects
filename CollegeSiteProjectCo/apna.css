@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+/* Navbar styling */
+
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    background-color: #f1f1f1ef;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* Light gray background for navbar */
+    padding: 1.6rem;
+    border-bottom: 1px solid #ddd;
+    padding-right: 16.7rem;
+    z-index: 1000;
+}
+
+.navbar img {
+    height: 60px;
+    width: auto;
+    margin-right: 35rem;
+}
+
+.navbar a,
+.navbar button {
+    color: #333;
+    /* Dark text color */
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 19px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+.navbar button {
+    font-weight: bold;
+
+}
+
+#sigma {
+    border: 2px solid blue;
+    padding: 0.8rem;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(3, 3, 212, 0.941);
+
+
+}
+
+#sign {
+    border: 2px solid blue;
+    background-color: #fff;
+    color: blue;
+    padding: 0.8rem;
+}
+
+/* Dropdown container styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content styling */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Styling for hover effects */
+.navbar a:hover,
+.navbar button:hover {
+    background-color: #f1f1f1;
+
+}
+
+
+
+/* main section right content */
+.left-side {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10rem;
+    margin-right: 71rem;
+    margin-bottom: 3px;
+    cursor: auto;
+    font-weight: bold;
+   border: 2px solid #fff;
+   border: none;
+   background-color: #fff;
+   padding-top: 8rem;
+
+ 
+}
+
+
+.left-side .left-side-content h2 {
+    font-size: 35px;
+    color: #333;
+
+
+}
+
+.left-side .left-side-content span {
+    color: rgba(54, 75, 197);
+    font-size: 35px;
+}
+
+/* for ultimate css */
+#spanultimate {
+    color: rgb(255, 235, 59);
+    font-size: 24px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.left-side .left-side-content button {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    align-items: center;
+    padding: 16px;
+    margin: 5px;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(54, 75, 197);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* CSS for the right-side container */
+.right-side {
+    position: absolute;
+    /* Position the right-side content absolutely */
+    right: 35rem;
+    top: 9rem;
+    border: none;
+    padding: 20px;
+    max-width: 400px;
+}
+
+/* Right-side content styling */
+.right-side-content img {
+    width: 600px;
+    height: 450px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+
+/* flex-container */
+
+.flex-container {
+    display: flex;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20rem;
+    padding: 2rem;
+    background-color: rgb(80, 104, 244);
+    flex-direction: column;
+}
+
+.flex-container .flex-container-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /* Centers the part */
+}
+
+.flex-container h2 {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.flex-container-parts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10.5rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.icon-heart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.icon-heart i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.icon-heart p {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+/*  another main section part css */
+
+.middle-more-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 26rem;
+    cursor: auto;
+}
+
+.middle-more-part h1 {
+    color: rgb(47, 47, 195);
+    margin: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.middle-more-part h2 {
+    font-size: 1.94rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 18px;
+
+}
+
+.middle-more-part p {
+    font-size: 1.7rem;
+    margin: 18px;
+    font-weight: lighter;
+    color: #000;
+}
+
+
+
+.button .more {
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 2px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: rgba(54, 75, 197);
+    color: #ddd;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+/* last part of main section */
+
+
+.another-part {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin: 10px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #000;
+}
+
+.heading-part {
+    grid-column: span 6;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.heading-part span {
+    color: #3669C5;
+    font-weight: bold;
+}
+
+/* Image container styling */
+.another-container-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* footer content for css */
+
+.footer-container {
+    display: inline-block;
+    justify-content: center;
+    margin: 12px;
+}
+
+.footer-container .heading2 {
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 10px;
+    color: #000;
+    font-size: 2rem;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.footer-container-content img {
+    height: 80vh;
+    width: 80vw;
+    margin-left: 12rem;
+
+
+}
+
+
+.footer-container-allContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12rem;
+
+
+
+}
+
+.footer-container-allContent .footer-container-content {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+
+    align-items: center;
+}
+
+.footer-container-allContent img {
+    width: 200px;
+    height: 100px;
+    margin: 1.8rem;
+}
+
+.footer-container-allContent .footer-container-contents p {
+    color: #6674CC;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+}
+
+.footer-container-allContent .footer-container-contents .heading1 {
+    color: #6674CC;
+    /* border: 2px solid red; */
+    margin: 1.8rem;
+
+
+}
+
+.footer-container-contents ul li {
+
+    margin-left: 4.5rem;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+
+}
+
+.footer-container-contents a {
+    text-decoration: none;
+    color: #6674CC;
+}
+
+.footer-container-contents .heading3 {
+    color: #000;
+    font-weight: bold;
+    margin: 1.8rem;
+
+}
+
+.footer-container-contents .fa-envelope {
+    color: blue;
+    font-weight: bold;
+    margin-left: 1.9rem;
+
+}
+
+.footer-container-contents .mail {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: normal;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+
+}
+
+#Copyright {
+    border: 2px solid #fff;
+    margin: 4rem;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+    
+}
